@@ -1,0 +1,25 @@
+<div  class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <span>Rules and regulations for the Quiz</span>
+        </div>
+        <div class="panel-body">
+            <ol>
+                <li class="text-primary"> Quiz will contain total 20 questions.</li>
+                <li class="text-primary"> One point will be awarded for each correct answer.</li>
+                <li class="text-primary"> No half marks will be awarded.</li>
+                <li class="text-primary"> Each question has 4 options.</li>
+                <li class="text-primary"> Do not refresh the page.</li>
+                <li class="text-primary"> Final score will be shown after the submission of the quiz.</li>
+                <li class="text-primary"> Do not move out of the quiz window else your quiz will be auto submitted.</li>
+            </ol>
+        </div>
+        <div class="panel-footer">
+            <div id="labelCheckTnc" class="checkbox">
+                <label>
+                    <input id="chktnc" type="checkbox" value="I agree" onChange="validateCheck()" required >I Agree </label>
+                <input id="btnStartQuiz" style="margin-left:20px" class="btn btn-success" type="button" value="Start Quiz" onClick="startQuiz()" required />
+            </div>
+        </div>
+    </div>
+</div>
