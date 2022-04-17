@@ -1,0 +1,94 @@
+.resize {
+    width: 50%;
+    margin: auto;
+  }
+
+  .btn-circle {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+    margin: 6px;
+    font-size: 20px;
+    line-height: 1.428571429;
+    border-radius: 50%;
+  }
+
+  .btn-circle-answred {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+    margin: 6px;
+    font-size: 20px;
+    line-height: 1.428571429;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+  }
+
+  .count {
+    float: right;
+    cursor: pointer;
+  }
+
+  .main_container {
+    height: 40px;
+    width: auto;
+    padding: 0px;
+    margin: 900px;
+    max-width: 200px;
+    background-color: #55ACEE;
+    align-content: center;
+    display: inline;
+    margin: 1px 1px 1px 1px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  .container_inner {
+    height: auto;
+    border: none;
+    background-color: rgb(243, 237, 237);
+    vertical-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+    display: inline;
+    cursor: pointer;
+  }
+
+  .num_tiles {
+    background-color: rgb(243, 237, 237);
+    color: #5B7BD5;
+    font-size: 18px;
+    text-align: center;
+    line-height: 15px;
+    margin: 1px;
+    padding: 1px;
+    font-family: verdana;
+    vertical-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  .num_tiles #display_div_usersCount {
+    background-color: rgb(243, 237, 237);
+    color: #5B7BD5;
+    font-size: 18px;
+    text-align: center;
+    line-height: 15px;
+    margin: 1px;
+    padding: 1px;
+    font-family: verdana;
+    vertical-align: center;
+    font-weight: bolder;
+    display: inline;
+    cursor: pointer;
+  }
+
+
+
+
+
+  
